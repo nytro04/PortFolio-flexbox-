@@ -12,6 +12,7 @@ html,
 body {
   font-family: "Lato", "Arial", sans-serif;
   line-height: 1.4;
+  color: #555;
 }
 
 a {
@@ -26,6 +27,67 @@ p {
 
 .text-color {
   color: #1abc9c;
+}
+
+/* padding */
+.p-tbxs {
+  padding: 0.5rem 0;
+}
+
+.p-tbs {
+  padding: 1.5rem 0;
+}
+.p-tbm {
+  padding: 2rem 0;
+}
+.p-tbl {
+  padding: 3rem 0;
+}
+
+/* margins */
+/* margins top-bottom */
+.m-tbxs {
+  margin: 0.5rem 0;
+}
+
+.m-tbs {
+  margin: 1.5rem 0;
+}
+.m-tbm {
+  margin: 2rem 0;
+}
+.m-tbl {
+  margin: 3rem 0;
+}
+
+/* margins right-left */
+.m-rlxs {
+  margin: 0 0.5rem;
+}
+
+.m-rls {
+  margin: 0 1.5rem;
+}
+.m-rlm {
+  margin: 0 2rem;
+}
+.m-rll {
+  margin: 0 3rem;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.h2-heading {
+  /* display: inline-block; */
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  word-spacing: 0.2rem;
+  letter-spacing: 0.2rem;
+  font-weight: 300;
+  /* border-bottom: 0.1rem solid #1abc9c; */
 }
 
 .container {
@@ -139,10 +201,88 @@ input[type="submit"] {
 .btn-ghost {
   border: 1px solid #1abc9c;
   color: #1abc9c;
+  margin-right: 1rem;
 }
 
 .btn-ghost:hover {
   border: 1px solid #1abc9c;
   background-color: #1abc9c;
   color: #fff;
+}
+
+/* Section - About */
+
+/* hexagon */
+.hexagon {
+  position: relative;
+  width: 100px;
+  height: 57.74px;
+  background-color: #33cca7;
+  margin: 28.87px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  width: 70.71px;
+  height: 70.71px;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background-color: inherit;
+  left: 14.6447px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.hexagon:before {
+  top: -35.3553px;
+}
+
+.hexagon:after {
+  bottom: -35.3553px;
+}
+
+/*cover up extra shadows*/
+.hexagon span {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100px;
+  height: 57.735px;
+  z-index: 2;
+  background: inherit;
+}
+
+#about .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#about .items .item {
+  padding: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.about-2 {
+  display: flex;
+}
+
+.about-2 div {
+  flex: 1;
+  text-align: center;
+}
+
+.item .hexagon span {
+  font-size: 3rem;
+  padding-right: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+#about a {
+  margin: 0.8rem 0;
 }
