@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/resources/css/style.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 768px)"
@@ -14,7 +15,6 @@
       media="screen and (min-width: 1100px)"
       href="/resources/css/widescreen.css"
     />
-    <link rel="stylesheet" href="/resources/css/style.css" />
     <link rel="stylesheet" href="/vendors/font/flaticon.css" />
     <!-- <link rel="stylesheet" href="/resources/css/queries.css" />
     <link rel="stylesheet" href="/vendors/css/normalize.css" />
@@ -45,6 +45,10 @@
           <span class="hello"> Hello, I'm </span>
           <h1>Francis Badasu</h1>
           <p class="title">A Full Stack Developer</p>
+            <span>
+              <a href="https://github.com/nytro04" target="_blank"><i class="flaticon-github-logo icon-social-github"></i></a>
+              <a href="https://twitter.com/nytro04" target="_blank"><i class="flaticon-twitter-logo-silhouette icon-social-twitter"></i></i></a>
+            </span>
           <div>
             <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
             <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
@@ -54,7 +58,7 @@
     </header>
 
     <!-- About me  -->
-    <section id="about">
+    <section class="section-about" id="about">
       <div class="container">
         <h2 class="h2-heading p-tbm t-center">About</h2>
         <div class="items">
@@ -99,121 +103,60 @@
             </p>
           </div>
           <div class="skills-section">
-            <h2 class="h2-heading p-tbs t-center">Skills</h2>
+            <h2 class="h3-heading p-tbs t-center">SKILLS</h2>
 
             <div>
+              <a
+                class="btn btn-full "
+                href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+                target="_blank"
+                >HMTL/CSS</a
+              >
+              <a
+                class="btn btn-ghost "
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                >JavaScript</a
+              >
+              <a
+                class="btn btn-full "
+                href="https://reactjs.org/"
+                target="_blank"
+                >React/Redux</a
+              >
+              <a
+                class="btn btn-ghost"
+                href="https://nodejs.org/en/"
+                target="_blank"
+                >NodeJS</a
+              >
+              <a
+                class="btn btn-full "
+                href="https://golang.org/"
+                target="_blank"
+                >Golang</a
+              >
+              <!-- <a class="btn btn-ghost " href="#">JavaScript</a>
               <a class="btn btn-full " href="#">HMTL/CSS</a>
-              <a class="btn btn-ghost " href="#">JavaScript</a>
-              <a class="btn btn-full " href="#">React/Redux</a>
-              <a class="btn btn-ghost" href="#">NodeJS</a>
-              <a class="btn btn-full " href="#">Goalng</a>
-              <a class="btn btn-ghost " href="#">JavaScript</a>
-              <a class="btn btn-full " href="#">HMTL/CSS</a>
-              <a class="btn btn-ghost" href="#">JavaScript</a>
-              <!-- <a class="btn btn-ghost" href="#">JavaScript</a> -->
+              <a class="btn btn-ghost" href="#">JavaScript</a> -->
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="section-about js-section-about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-      </div>
-      <div class="row">
-        <div class="col span-1-of-3  box">
-          <i class="flaticon-responsive-design-symbol big-icon"></i>
-          <h3>Web Development</h3>
-          <p>
-            A passion for developing functionally Responsive Web Application
-          </p>
-        </div>
-        <div class="col span-1-of-3 box">
-          <i class="flaticon-computer big-icon"></i>
-          <h3>Front-End Development</h3>
-          <p>
-            I love to create simple, clean and responsive UI's that translates
-            into great UX
-          </p>
-        </div>
-        <div class="col span-1-of-3 box">
-          <i class="flaticon-api-page  big-icon"></i>
-          <h3>API Development</h3>
-          <p>
-            API Development with NodeJS and Golang
-          </p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col span-1-of-2">
-          <img class="pic" src="resources/img/image.jpeg" alt="My picture" />
-          <h4>Who Am I?</h4>
-          <p class="long-copy">
-            I'm a Francis Badasu, A Full Stack Web Developer based in Ghana. I
-            have growing experience and passion for building awesome Web Apps
-            and API's
-          </p>
-        </div>
-        <div class="col span-1-of-2">
-          <h2>Skills</h2>
-          <div class="center">
-            <div class="skillbar">
-              <div>
-              <p>HTML/CSS</p>
-              <P>85%</P>
-              <div class="skill-percentage">
-                <div class="skill-level" style="width:85%"></div>
-              </div>
-              </div>
-              <div>
-                <p>JavaScript</p>
-                <P>85%</P>
-                <div class="skill-percentage">
-                  <div class="skill-level" style="width:85%"></div>
-                </div>
-              </div>
-              <div>
-                <p>React/Redux</p>
-                <P>85%</P>
-                <div class="skill-percentage">
-                  <div class="skill-level" style="width:85%"></div>
-                </div>
-              </div>
-                <div>
-                  <p>Node</p>
-                  <P>85%</P>
-                    <div class="skill-percentage">
-                      <div class="skill-level" style="width:85%"></div>
-                    </div>
-                  </div>
-                  <div>
-                      <p>Golang</p>
-                      <P>85%</P>
-                      <div class="skill-percentage">
-                        <div class="skill-level" style="width:85%"></div>
-                      </div>
-                    </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
     <section class="section-projects js-section-project" id="project">
-      <div class="row">
-        <h2>Projects</h2>
-      </div>
-      <div class="row">
-        <div class="col span-1-of-3">
-          <div class="project-box">
+      <h2 class="h2-heading p-tbm t-center">Projects</h2>
+
+      <div class="container">
+        <div class="items">
+          <div class="item">
             <div>
               <h3 class="hori-line">BDClientApp</h3>
-              <img
-                src="resources/img/hero_client_panel.png"
-                alt="client_panel"
-              />
+
+              <img src="./img/hero_client_panel.png" alt="client_panel" />
               <p class="project-title">
-                A Web Application built to maanage Client
+                A Client Management Web Application
               </p>
             </div>
             <div>
@@ -231,19 +174,16 @@
             </div>
             <div>
               <a href="#" class="btn btn-full" target="_blank">GitHub</a>
-              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
             </div>
           </div>
-        </div>
-        <div class="col span-1-of-3">
-          <div class="project-box">
+
+          <div class="item">
             <div>
               <h3 class="hori-line">Shopping Cart</h3>
-              <img
-                src="resources/img/hero_client_panel.png"
-                alt="client_panel"
-              />
+              <img src="./img/hero_client_panel.png" alt="client_panel" />
               <p class="project-price-meal">An E-commerce Web Application</p>
+              <br />
             </div>
             <div>
               <ul>
@@ -263,19 +203,16 @@
             </div>
             <div>
               <a href="#" class="btn btn-full" target="_blank">GitHub</a>
-              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
             </div>
           </div>
-        </div>
-        <div class="col span-1-of-3">
-          <div class="project-box">
+
+          <div class="item">
             <div>
               <h3 class="hori-line">fb Folio</h3>
-              <img
-                src="resources/img/hero_client_panel.png"
-                alt="client_panel"
-              />
+              <img src="./img/hero_client_panel.png" alt="client_panel" />
               <p class="project-price-meal">A Personal Port Folio Website</p>
+              <br />
             </div>
             <div>
               <ul>
@@ -284,60 +221,87 @@
                 <li>
                   <i class="flaticon-checked-symbol icon-small"></i>JavaScript
                 </li>
-                <li>
+                <br />
+                <!-- <li>
                   <i class="flaticon-checked-symbol icon-small"></i>JQuery
-                </li>
+                </li> -->
               </ul>
             </div>
             <div>
               <a href="#" class="btn btn-full" target="_blank">GitHub</a>
-              <a href="#" class="btn btn-ghost" target="_blank">Live Demo</a>
+              <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <section class="section-contact" id="contact">
-      <div class="row">
-        <h2>Am happy to hear from you</h2>
+      <div class="container">
+        <h2 class="h2-heading p-tbm t-center">Am happy to hear from you</h2>
       </div>
-      <div class="row">
+      <div class="container">
         <form action="#" method="POST" class="contact-form" data-netlify="true">
-          <div class="row">
-            <div class="col span-1-of-3">
+          <div class="container-flex">
+            <div>
               <label for="name">Name</label>
             </div>
-            <div class="col span-2-of-3">
-              <input type="text" name="name" id="name" placeholder="Your name" required>
+            <div>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+                required
+              />
             </div>
           </div>
-          <div class="row">
-              <div class="col span-1-of-3">
-                <label for="email">Email</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input type="email" name="email" id="email" placeholder="Your email" required>
-              </div>
+          <div class="container-flex">
+            <div>
+              <label for="email">Email</label>
+            </div>
+            <div>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                required
+              />
+            </div>
           </div>
-          <div class="row">
-              <div class="col span-1-of-3">
-                <label>Drop Me a line</label>
-              </div>
-              <div class="col span-2-of-3">
-                <textarea name="message" placeholder="Your message" cols="30" rows="10"></textarea>
-              </div>
+          <div class="container-flex">
+            <div>
+              <label>Drop Me A Message</label>
+            </div>
+            <div>
+              <textarea
+                name="message"
+                placeholder="Message"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
           </div>
-          <div class="row">
-              <div class="col span-1-of-3">
-                <label>&nbsp;</label>
-              </div>
-              <div class="col span-2-of-3">
-                <input type="submit" value="Send it!" >
-              </div>
+          <div class="container-flex">
+            <div>
+              <label>&nbsp;</label>
+            </div>
+            <div>
+              <input class="btn btn-full" type="submit" value="Send it!" />
+            </div>
           </div>
         </form>
       </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <p>Copy &copy; 2019 by Francis Badasu. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- 
     <footer>
       <div class="row">
         <ul class="social-links">
@@ -359,18 +323,3 @@
     <script src="resources/js/script.js"></script>
   </body>
 </html>
-
-<!-- <ul class="contact-links">
-  <li>
-      <i class="flaticon-envelope icon-small"></i>nytro04@gmail.com
-    </li>
-    <li>
-        <i class="flaticon-smartphone-call icon-small"></i>+233549970041
-      </li>
-      <li>
-          <i class="flaticon-facebook-placeholder-for-locate-places-on-maps icon-small"></i>Ghana, Accra
-        </li>
-        <li>
-            <i class="flaticon-postbox icon-small"></i>P.o. Box Kt 532, Kotobabi-Accra
-          </li>
-</ul> -->

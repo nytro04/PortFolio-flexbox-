@@ -28,7 +28,7 @@
 [class*=" flaticon-"]:after {
   font-family: Flaticon;
   /* font-size: 20px; */
-  color: #fff;
+  /*color: #fff;*/
   font-style: normal;
   margin-left: 20px;
 }
