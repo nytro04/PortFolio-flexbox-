@@ -254,7 +254,7 @@ input[type="submit"] {
   width: 100px;
   height: 57.74px;
   background-color: #33cca7;
-  margin: 28.87px 0;
+  margin: 28.87px auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   color: #fff;
 }
