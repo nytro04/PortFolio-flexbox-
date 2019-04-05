@@ -30,57 +30,25 @@ h3 {
   text-align: center;
 }
 
+h4 {
+  padding: 0.5rem;
+}
+
 /* Utils classes */
 
 .text-color {
   color: #1abc9c;
 }
 
-/* padding */
-/* .p-tbxs {
-  padding: 0.5rem 0;
-}
-
-.p-tbs {
-  padding: 1.5rem 0;
-} */
 .p-tbm {
-  padding: 2rem 0;
-}
-/* .p-tbl {
-  padding: 3rem 0;
-} */
-
-/* margins */
-/* margins top-bottom */
-/* .m-tbxs {
-  margin: 0.5rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-.m-tbs {
-  margin: 1.5rem 0;
+.p-rlm {
+  padding-right: 1rem;
+  padding-left: 0.1rem;
 }
-.m-tbm {
-  margin: 2rem 0;
-}
-.m-tbl {
-  margin: 3rem 0;
-} */
-
-/* margins right-left */
-/* .m-rlxs {
-  margin: 0 0.5rem;
-}
-
-.m-rls {
-  margin: 0 1.5rem;
-}
-.m-rlm {
-  margin: 0 2rem;
-}
-.m-rll {
-  margin: 0 3rem;
-} */
 
 .t-center {
   text-align: center;
@@ -111,14 +79,18 @@ h3 {
   overflow: hidden;
 }
 
-/* Navbar  */
-#navbar {
+/* navbar */
+.navbar span {
+  display: none;
+}
+
+.navbar {
   display: flex;
   padding: 1rem;
   justify-content: space-between;
 }
 
-#navbar ul {
+.navbar ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -176,11 +148,13 @@ header .content .hello {
 header .content h1 {
   font-size: 4rem;
   line-height: 7rem;
+  margin-bottom: -1rem;
 }
 
 header .content p {
   font-size: 1.5rem;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 /* social media links */
@@ -189,6 +163,12 @@ header .content a {
   display: inline;
   color: #fff;
   list-style: none;
+}
+
+header .content ul li {
+  list-style: none;
+  text-align: end;
+  padding-bottom: 0.3rem;
 }
 
 .icon-social-twitter,

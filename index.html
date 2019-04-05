@@ -25,33 +25,39 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700"
       rel="stylesheet"
     />
-    <title>Francis Badasu | Full Stack Developer</title>
-  </head>
+    <title>Francis Badasu | Full Stack Developer</title> 
+  </head> 
   <body>
     <header id="home">
-      <nav id="navbar">
+      <nav id="navbar" class="navbar">
+        <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="flaticon-menu-three-horizontal-lines-symbol"></i>
+        </span>
         <!-- logo goes here -->
-        <h2>Logo</h2>
-        <ul>
-          <li><a href="#home" onclick="smoothScroll(event)">Home</a></li>
-          <li><a href="#about" onclick="smoothScroll(event)">About</a></li>
-          <li><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
-          <li><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
+        <a href="#" class="logo"></a>
+        <ul class="main-nav" id="js-menu">
+          <li class="nav-links"><a href="#home" onclick="smoothScroll(event)">Home</a></li>
+          <li class="nav-links"><a href="#about" onclick="smoothScroll(event)">About</a></li>
+          <li class="nav-links"><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
+          <li class="nav-links"><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
         </ul>
       </nav>
+      <!-- <a class="mobile-nav-icon js-nav-icon"><i class="flaticon-menu-three-horizontal-lines-symbol"></i></li></a> -->
 
       <div class="container">
         <div class="content">
           <span class="hello"> Hello, I'm </span>
           <h1>Francis Badasu</h1>
           <p class="title">A Full Stack Developer</p>
+          <a href="mailto:"><i class="flaticon-envelope-1 p-rlm"></i> nytro04@gmail.com</a>
+          <a href="#!"><i class="flaticon-phone-receiver p-rlm"></i> +233 549970041</a>
             <span>
               <a href="https://github.com/nytro04" target="_blank"><i class="flaticon-github-logo icon-social-github"></i></a>
               <a href="https://twitter.com/nytro04" target="_blank"><i class="flaticon-twitter-logo-silhouette icon-social-twitter"></i></i></a>
             </span>
           <div>
-            <a class="btn btn-full js-scroll-to-about" href="#">About Me</a>
-            <a class="btn btn-ghost js-scroll-to-project" href="#">Projects</a>
+            <a class="btn btn-full js-scroll-to-about"  href="#about" onclick="smoothScroll(event)">About Me</a>
+            <a class="btn btn-ghost js-scroll-to-project" href="#project" onclick="smoothScroll(event)">Projects</a>
           </div>
         </div>
       </div>

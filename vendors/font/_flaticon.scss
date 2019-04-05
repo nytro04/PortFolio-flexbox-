@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 27/03/2019 15:00
+    Creation date: 03/04/2019 13:27
     */
 
     @font-face {
@@ -52,9 +52,12 @@
 .flaticon-cancel-music:before { content: "\f10c"; }
 .flaticon-checklist:before { content: "\f10d"; }
 .flaticon-programming:before { content: "\f10e"; }
-.flaticon-code-1:before { content: "\f10f"; }
+.flaticon-code:before { content: "\f10f"; }
 .flaticon-coding:before { content: "\f110"; }
-.flaticon-code:before { content: "\f111"; }
+.flaticon-code-1:before { content: "\f111"; }
+.flaticon-envelope-1:before { content: "\f112"; }
+.flaticon-black-back-closed-envelope-shape:before { content: "\f113"; }
+.flaticon-phone-receiver:before { content: "\f114"; }
     
     $font-Flaticon-checked-symbol: "\f100";
     $font-Flaticon-github-logo: "\f101";
@@ -71,6 +74,9 @@
     $font-Flaticon-cancel-music: "\f10c";
     $font-Flaticon-checklist: "\f10d";
     $font-Flaticon-programming: "\f10e";
-    $font-Flaticon-code-1: "\f10f";
+    $font-Flaticon-code: "\f10f";
     $font-Flaticon-coding: "\f110";
-    $font-Flaticon-code: "\f111";
+    $font-Flaticon-code-1: "\f111";
+    $font-Flaticon-envelope-1: "\f112";
+    $font-Flaticon-black-back-closed-envelope-shape: "\f113";
+    $font-Flaticon-phone-receiver: "\f114";
