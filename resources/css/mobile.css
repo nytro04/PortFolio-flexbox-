@@ -49,11 +49,6 @@
     padding: 0.5rem 1rem;
   }
 
-  .main-nav li {
-    text-align: center;
-    margin: 15px auto;
-  }
-
   .logo {
     display: inline-block;
     font-size: 22px;
@@ -76,6 +71,11 @@
 
   .navbar ul {
     display: none;
+  }
+
+  .main-nav li {
+    text-align: center;
+    margin: 15px auto;
   }
 
   header {

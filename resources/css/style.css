@@ -115,7 +115,7 @@ h4 {
   border-bottom: 0.1rem solid #1abc9c;
 }
 
-.show {
+.navbar ul.show {
   display: block;
 }
 
