@@ -53,6 +53,7 @@
     text-align: center;
     margin: 15px auto;
   }
+
   .logo {
     display: inline-block;
     font-size: 22px;
@@ -73,12 +74,8 @@
     display: block;
   }
 
-  .navbar {
-    display: block;
-  }
-
   .navbar ul {
-    display: block;
+    display: none;
   }
 
   header {
