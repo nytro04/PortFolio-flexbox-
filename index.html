@@ -4,239 +4,276 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="/resources/css/style.css" />
-    <link
-      rel="stylesheet"
-      media="screen and (max-width: 768px)"
-      href="/resources/css/mobile.css"
-    />
-    <link
-      rel="stylesheet"
-      media="screen and (min-width: 1100px)"
-      href="/resources/css/widescreen.css"
-    />
     <link rel="stylesheet" href="/vendors/font/flaticon.css" />
     <!-- <link rel="stylesheet" href="/resources/css/queries.css" />
-    <link rel="stylesheet" href="/vendors/css/normalize.css" />
-    <link rel="stylesheet" href="/vendors/css/038 Grid.css" />
-     -->
+      <link rel="stylesheet" href="/vendors/css/normalize.css" />
+      <link rel="stylesheet" href="/vendors/css/038 Grid.css" />
+    -->
 
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400,700"
       rel="stylesheet"
     />
-    <title>Francis Badasu | Full Stack Developer</title> 
-  </head> 
+    <link rel="stylesheet" href="/resources/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 1024px)"
+      href="/resources/css/widescreen.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="/resources/css/mobile.css"
+    />
+    <title>Francis Badasu | Front-End Developer</title>
+  </head>
   <body>
-    <header id="home">
-      <nav id="navbar" class="navbar">
-        <span class="navbar-toggle" id="js-navbar-toggle">
-            <i class="flaticon-menu-three-horizontal-lines-symbol"></i>
-        </span>
-        <!-- logo goes here -->
-        <a href="#" class="logo"></a>
+    <header>
+      <nav class="navbar" id="navbar">
+        <!-- <span class="navbar-toggle" id="js-navbar-toggle">
+          <i class="flaticon-menu-three-horizontal-lines-symbol"></i>
+        </span> -->
+        <a href="#" class="navbar__name">
+          <div class="a__color">FRANCIS</div>
+          <div class="a__color">BADASU</div>
+        </a>
         <ul class="main-nav" id="js-menu">
-          <li class="nav-links"><a href="#home" onclick="smoothScroll(event)">Home</a></li>
-          <li class="nav-links"><a href="#about" onclick="smoothScroll(event)">About</a></li>
-          <li class="nav-links"><a href="#project" onclick="smoothScroll(event)">Projects</a></li>
-          <li class="nav-links"><a href="#contact" onclick="smoothScroll(event)">Contact</a></li>
+          <li class="nav-links">
+            <a href="#about" onclick="smoothScroll(event)">About</a>
+          </li>
+          <li class="nav-links">
+            <a href="#project" onclick="smoothScroll(event)">Projects</a>
+          </li>
+          <li class="nav-links">
+            <a href="#contact" onclick="smoothScroll(event)">Contact</a>
+          </li>
         </ul>
+        <div>
+          <a href="https://github.com/nytro04" target="_blank"
+            ><i class="flaticon-github-logo icon__github  a__color"></i
+          ></a>
+          <a href="https://twitter.com/nytro04" target="_blank"
+            ><i
+              class="flaticon-twitter-logo-silhouette icon__twitter  a__color"
+            ></i
+          ></a>
+        </div>
       </nav>
-      <!-- <a class="mobile-nav-icon js-nav-icon"><i class="flaticon-menu-three-horizontal-lines-symbol"></i></li></a> -->
 
       <div class="container">
-        <div class="content">
-          <span class="hello"> Hello, I'm </span>
-          <h1>Francis Badasu</h1>
-          <p class="title">A Full Stack Developer</p>
-          <a href="mailto:"><i class="flaticon-envelope-1 p-rlm"></i> nytro04@gmail.com</a>
-          <a href="#!"><i class="flaticon-phone-receiver p-rlm"></i> +233 549970041</a>
-            <span>
-              <a href="https://github.com/nytro04" target="_blank"><i class="flaticon-github-logo icon-social-github"></i></a>
-              <a href="https://twitter.com/nytro04" target="_blank"><i class="flaticon-twitter-logo-silhouette icon-social-twitter"></i></i></a>
-            </span>
-          <div>
-            <a class="btn btn-full js-scroll-to-about"  href="#about" onclick="smoothScroll(event)">About Me</a>
-            <a class="btn btn-ghost js-scroll-to-project" href="#project" onclick="smoothScroll(event)">Projects</a>
-          </div>
-        </div>
+        <h1>Francis Badasu</h1>
+        <p>A Front-end Developer</p>
+        <p class="bounce">
+          <span class="word belize">Elegant</span>
+          <span class="word pomegranate">Simple</span>
+          <span class="word wisteria">Clean</span>
+          <span class="word violent">Responsive</span>
+          <!-- <span class="word violent">Accessibility</span> -->
+          <!-- <span class="word violent">Optimization</span> -->
+        </p>
       </div>
+
+      <div class="header__background"></div>
     </header>
 
     <!-- About me  -->
     <section class="section-about" id="about">
       <div class="container">
-        <h2 class="h2-heading p-tbm t-center">About</h2>
-        <div class="items">
-          <div class="item">
-            <div class="hexagon">
-              <span class="flaticon-responsive-design-symbol"> </span>
-            </div>
-            <h3>Web Development</h3>
-            <p>
-              A passion for developing functionally Responsive Web Application
-            </p>
-          </div>
-          <div class="item">
-            <div class="hexagon">
-              <span class="flaticon-code "></span>
-            </div>
-            <h3>Front-End Development</h3>
-            <p>
-              I love to create simple, clean and responsive UI's that translates
-              into great UX
-            </p>
-          </div>
-          <div class="item">
-            <div class="hexagon">
-              <span class="flaticon-coding"></span>
-            </div>
-            <h3>Back-End Development</h3>
-            <p>
-              API Development with NodeJS and Golang
-            </p>
-          </div>
-        </div>
-
+        <h2 class="">About</h2>
         <div class="about-2">
           <div class="img-side">
             <img src="./img/web_me.png" alt="" />
-            <h4>Who Am I?</h4>
+            <h3>Who Am I?</h3>
             <p>
-              I'm a Francis Badasu, A Full Stack Web Developer based in Ghana. I
-              have growing experience and passion for building awesome Web Apps
-              and API's
+              I'm a Francis Badasu, A Front-End Web Developer based in Accra,
+              Ghana. I love to create elegant, clean and responsive UI's that
+              translates into great UX.
             </p>
           </div>
-          <div class="skills-section">
-            <h2 class="h3-heading p-tbs t-center">SKILLS</h2>
 
-            <div>
-              <a
-                class="btn btn-full "
-                href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
-                target="_blank"
-                >HMTL/CSS</a
-              >
-              <a
-                class="btn btn-ghost "
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                target="_blank"
-                >JavaScript</a
-              >
-              <a
-                class="btn btn-full "
-                href="https://reactjs.org/"
-                target="_blank"
-                >React/Redux</a
-              >
-              <a
-                class="btn btn-ghost"
-                href="https://nodejs.org/en/"
-                target="_blank"
-                >NodeJS</a
-              >
-              <a
-                class="btn btn-full "
-                href="https://golang.org/"
-                target="_blank"
-                >Golang</a
-              >
-              <!-- <a class="btn btn-ghost " href="#">JavaScript</a>
-              <a class="btn btn-full " href="#">HMTL/CSS</a>
-              <a class="btn btn-ghost" href="#">JavaScript</a> -->
+          <div class="skills-section">
+            <h2 class="">SKILLS</h2>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>HTML</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>CSS/SCSS</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>JavaScript</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>React/Redux</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>NodeJS</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>50%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class=" horizontal rounded">
+              <div class="progress-bar horizontal">
+                <p>Golang</p>
+                <div class="progress-track">
+                  <div class="progress-fill">
+                    <span>40%</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Project section  -->
-
     <section class="section-projects js-section-project" id="project">
-      <h2 class="h2-heading p-tbm t-center">Projects</h2>
+      <h2>Recent Projects</h2>
 
       <div class="container">
         <div class="items">
           <div class="item">
             <div>
-              <h3 class="hori-line">BDClientApp</h3>
+              <h3 class="hori-line">KaraAgro</h3>
 
-              <img src="./img/hero_client_panel.png" alt="client_panel" />
+              <img src="./img/karaAgro.png" alt="client_panel" />
               <p class="project-title">
-                A Client Management Web Application
+                A Website for an Android App
               </p>
             </div>
             <div>
               <ul>
-                <li><i class="flaticon-checked-symbol icon-small"></i>React</li>
-                <li><i class="flaticon-checked-symbol icon-small"></i>Redux</li>
+                <li><i class="flaticon-checked-symbol icon-small"></i>Html</li>
                 <li>
-                  <i class="flaticon-checked-symbol icon-small"></i
-                  >Firebase/Firestore
+                  <i class="flaticon-checked-symbol icon-small"></i>CSS/SCSS
                 </li>
-                <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>Bootstrap
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
-              <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div>
-              <h3 class="hori-line">Shopping Cart</h3>
-              <img src="./img/hero_client_panel.png" alt="client_panel" />
-              <p class="project-price-meal">An E-commerce Web Application</p>
-              <br />
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>NodeJS
-                </li>
-                <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>Express
-                </li>
-                <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>MongoDB
-                </li>
-                <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>React/Redux
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
-              <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
-            </div>
-          </div>
-
-          <div class="item">
-            <div>
-              <h3 class="hori-line">fb Folio</h3>
-              <img src="./img/hero_client_panel.png" alt="client_panel" />
-              <p class="project-price-meal">A Personal Port Folio Website</p>
-              <br />
-            </div>
-            <div>
-              <ul>
-                <li><i class="flaticon-checked-symbol icon-small"></i>HTML</li>
-                <li><i class="flaticon-checked-symbol icon-small"></i>CSS</li>
                 <li>
                   <i class="flaticon-checked-symbol icon-small"></i>JavaScript
                 </li>
-                <br />
                 <!-- <li>
-                  <i class="flaticon-checked-symbol icon-small"></i>JQuery
+                  <i class="flaticon-checked-symbol icon-small"></i>Bootstrap
                 </li> -->
               </ul>
             </div>
             <div>
-              <a href="#" class="btn btn-full" target="_blank">GitHub</a>
+              <a
+                href="https://github.com/nytro04/karaAgro"
+                class="btn btn-full"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://thirsty-leavitt-eba8d1.netlify.com"
+                class="btn btn-ghost"
+                target="_blank"
+                >Live App</a
+              >
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <h3 class="hori-line">Sister Share</h3>
+              <img src="./img/sistershare.png" alt="client_panel" />
+              <p>A blogging Website For Women</p>
+              <br />
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>React/Redux
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>CSS/SCSS
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>Bootstrap
+                </li>
+                <!-- <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>MongoDB
+                </li> -->
+              </ul>
+            </div>
+            <div>
+              <a
+                href="https://github.com/kwamesarpong/sistazshare-web"
+                class="btn btn-full"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://sistazshare-8fd5f.web.app"
+                class="btn btn-ghost"
+                target="_blank"
+                >Live App</a
+              >
+            </div>
+          </div>
+
+          <div class="item">
+            <div>
+              <h3 class="hori-line">iShop</h3>
+              <img src="./img/ishop.png" alt="client_panel" />
+              <p class="project-price-meal">An E-commerce Web App</p>
+              <br />
+            </div>
+            <div>
+              <ul>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i>React/Redux
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i
+                  >CSS/SCSS/Bootstrap
+                </li>
+                <li>
+                  <i class="flaticon-checked-symbol icon-small"></i
+                  >Firebase/Firestore
+                </li>
+                <br />
+                <!-- <li>
+                    <i class="flaticon-checked-symbol icon-small"></i>JQuery
+                  </li> -->
+              </ul>
+            </div>
+            <div>
+              <a
+                href="https://github.com/nytro04/ishop"
+                class="btn btn-full"
+                target="_blank"
+                >GitHub</a
+              >
               <a href="#" class="btn btn-ghost" target="_blank">Live App</a>
             </div>
           </div>
@@ -247,7 +284,7 @@
     <!-- contact section -->
     <section class="section-contact" id="contact">
       <div class="container">
-        <h2 class="h2-heading p-tbm t-center">Am happy to hear from you</h2>
+        <h2 class="">Am happy to hear from you</h2>
       </div>
       <div class="container">
         <form action="#" method="POST" class="contact-form" data-netlify="true">
@@ -294,10 +331,10 @@
           </div>
           <div class="container-flex">
             <div>
-              <label>&nbsp;</label>
+              <!-- <label>&nbsp;</label> -->
             </div>
             <div>
-              <input class="btn btn-full" type="submit" value="Send it!" />
+              <input class="btn btn-full" type="submit" value="Send!" />
             </div>
           </div>
         </form>
@@ -307,13 +344,34 @@
     <!-- footer  -->
 
     <footer>
-      <div class="container">
-        <p>Copy &copy; 2019 by Francis Badasu. All rights reserved.</p>
+      <div class="footer__flex">
+        <div>
+          <a href="mailto:nytro04@gmail.com"
+            ><i class="flaticon-envelope-1 a__color"></i>&nbsp;
+            nytro04@gmail.com</a
+          >
+          <a href="#!"
+            ><i class="flaticon-phone-receiver a__color"></i> &nbsp; +233
+            549970041</a
+          >
+        </div>
+
+        <div>Copyright &copy; 2019 by Francis Badasu. All rights reserved.</div>
+        <span>
+          <a href="https://github.com/nytro04" target="_blank"
+            ><i class="flaticon-github-logo a__color icon__github"></i
+          ></a>
+          <a href="https://twitter.com/nytro04" target="_blank"
+            ><i
+              class="flaticon-twitter-logo-silhouette a__color icon__twitter"
+            ></i
+          ></a>
+        </span>
       </div>
     </footer>
 
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
-    <!-- <script src="vendors/js/jquery.waypoints.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="resources/js/script.js"></script>
   </body>
 </html>

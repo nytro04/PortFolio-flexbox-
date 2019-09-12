@@ -1,42 +1,114 @@
-#about .items {
+/* .items {
   display: block;
   padding: 1rem;
 }
 
-#about .about-2 {
+.about-2 {
   display: block;
 }
 
-#project .items {
+.items {
   display: block;
   padding: 1rem;
 }
 
-#project .items .item {
+.item {
   margin: 1.5rem;
-}
+} */
 
 /* Smartphones  */
 @media (max-width: 500px) {
-  header .content h1 {
-    font-size: 2.5rem;
-    margin-bottom: -1.5rem;
+  h1 {
+    font-size: 4rem;
+    margin-top: 10rem;
   }
 
-  .p-rlm {
-    font-size: 0.8rem;
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 0.35rem;
+    margin-top: 3rem;
+    padding-bottom: 1rem;
   }
 
-  header .content p {
+  a {
     font-size: 1rem;
   }
 
-  .h3-heading {
-    padding: 1.5rem;
+  .navbar {
+    padding: 1rem 0;
+  }
+
+  header p {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+
+  /* p {
+    font-size: 0.5rem;
+  } */
+
+  .header__background {
+    height: 15vh;
+    margin-top: 10rem;
+    width: 100%;
+  }
+
+  .about-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+  }
+
+  .about-2 p {
+    font-size: 1.2rem;
+  }
+
+  .img-side {
+    flex: 1;
+    align-self: center;
+  }
+
+  .img-side img {
+    width: 25rem;
+  }
+
+  .skills-section {
+    flex: 1;
+    align-self: center;
+    margin-left: 0;
+  }
+
+  /* Projects */
+
+  .section-projects {
+    padding: 1rem;
+  }
+
+  #project .container {
+    padding: 0 1rem;
+    /* margin: 0 auto; */
+  }
+
+  .items {
+    display: block;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-content: center; */
+  }
+
+  .item {
+    margin: 1.5rem;
+  }
+
+  .item li {
+    font-size: 1.2rem;
   }
 
   .btn:link {
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 1.5rem;
   }
 
   .container-flex {
@@ -44,16 +116,29 @@
     margin: 0.4rem;
   }
 
-  header .content .hello {
-    font-size: 0.7rem;
-    padding: 0.5rem 1rem;
+  /* message */
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 0.8rem;
+    width: auto;
   }
 
-  .logo {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
+  .container-flex label {
+    font-size: 1.2rem;
+  }
+
+  .container-flex div:first-child {
+    padding: 0 0.8rem;
+  }
+
+  textarea {
+    height: 10rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    padding: 1rem;
   }
 
   .navbar-toggle {
@@ -78,7 +163,13 @@
     margin: 15px 8rem 15px 0;
   }
 
-  /* header {
-    height: 110vh;
-  } */
+  header {
+    height: 52vh;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+  header {
+    height: 60vh;
+  }
 }
